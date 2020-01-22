@@ -27,7 +27,7 @@ public class BasicHeuristic {
         problem.container.setCoordinatePoint(0, 0, 0);
         problem.container.setN(0);
         ps.spaceStack.push(problem.container);
-
+        //test-push
         while (!ps.spaceStack.isEmpty()) {
             try {
                 Container space = ps.spaceStack.peek();
